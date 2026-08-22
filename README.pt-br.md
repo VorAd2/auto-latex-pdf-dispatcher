@@ -4,7 +4,7 @@
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-Leia isso em: 󠁧󠁢󠁥🇺🇸 [Inglês](README.md)
+Read this in: 󠁧󠁢󠁥🇺🇸 [English](README.md)
 
 A princípio, este programa foi motivado pelo meu interesse em automatizar, usando ferramentas populares e sem a instalação local do ecossistema TeX, o preenchimento de Termos de Voluntariado no âmbito da minha experiência universitária enquanto membro de uma empresa júnior. Entretanto, por conta da arquitetura desacoplada e do uso de modelos LaTeX, o script também é bastante útil em diversos outros cenários, a saber:
 - Geração e despache automático de certificados para participantes de workshops, de semanas acadêmicas e de minicursos de capacitação.

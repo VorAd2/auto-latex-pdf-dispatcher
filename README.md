@@ -4,7 +4,7 @@
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-Read this in: 🇧🇷 [Português do Brasil](README.pt-br.md)
+Leia isso em: 🇧🇷 [Português do Brasil](README.pt-br.md)
 
 Initially, this program was motivated by my interest in automating the process of filling out Volunteer Agreements — using popular tools and without having to install the TeX ecosystem locally — as part of my college experience as a member of a junior enterprise. However, thanks to its decoupled architecture, the script is also quite useful in various other scenarios, namely:
 - Automatic generation and issuance of certificates for participants in workshops, academic weeks, and short-term training courses.
