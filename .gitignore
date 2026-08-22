@@ -1,0 +1,6 @@
+.venv
+.notes
+.env
+src/__pycache__
+/output
+/sheet
