@@ -1,5 +1,5 @@
 from .config import(
-    LOG_FILE, OUTPUT_DIR, MODIFIED_SHEET_FILE, get_dataframe, 
+    TAX_ID_FIELD, LOG_FILE, OUTPUT_DIR, MODIFIED_SHEET_FILE, get_dataframe, 
     get_template, ENABLE_EMAIL_SENDING
 )
 from .compiler import LatexCompiler

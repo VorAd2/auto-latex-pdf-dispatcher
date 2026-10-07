@@ -19,6 +19,8 @@ TEMPLATE_DIR = BASE_DIR / "document_model"
 _email_env = str(os.getenv('ENABLE_EMAIL_SENDING')).strip().lower()
 ENABLE_EMAIL_SENDING = _email_env in ("true")
 
+TAX_ID_FIELD = os.getenv('TAX_ID_FIELD').strip().lower()
+
 # Trecho executado em Import Time, assim como tudo na identação 0
 with open(CONFIG_PATH / "mapping.json", "r", encoding="utf-8") as f:
     COLUMN_MAPPING = json.load(f)

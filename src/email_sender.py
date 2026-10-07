@@ -24,7 +24,7 @@ def get_email_content(name: str) -> str:
         '''
 #########################################################################
 
-def send_sucess_emails(output_dir: Path, df: pd.DataFrame, sanitize_tex_name: Callable):
+def send_sucess_emails(output_dir: Path, df: pd.DataFrame, generate_filename_wrapper: Callable):
     pdf_list = list(output_dir.glob('*.pdf'))
 
     if not pdf_list:
@@ -33,7 +33,7 @@ def send_sucess_emails(output_dir: Path, df: pd.DataFrame, sanitize_tex_name: Ca
 
     print(f"\n\U0001F4E9 Iniciando o envio de {len(pdf_list)} email(s)...")
 
-    df['sanitized_name'] = df['nome'].apply(sanitize_tex_name)
+    df['sanitized_name'] = df.apply(generate_filename_wrapper, axis=1)
 
     try:
         with smtplib.SMTP_SSL(smtp_server, port ,context=create_default_context()) as smtp:
